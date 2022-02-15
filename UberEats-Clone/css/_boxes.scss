@@ -1,0 +1,32 @@
+.boxes-parent {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  flex-wrap: wrap;
+  margin-bottom: 66px;
+  div {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+  }
+  img {
+    width: 60vh;
+  }
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  a {
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 540px) {
+  .boxes-parent {
+    img {
+      width: 100%;
+    }
+  }
+}

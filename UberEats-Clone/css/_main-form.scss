@@ -1,0 +1,115 @@
+.main-form-parent {
+  position: relative;
+  margin-left: 126px;
+  i {
+    position: absolute;
+    padding-left: 10px;
+    top: 55%;
+    font-size: 20px;
+  }
+  input {
+    width: 25%;
+    padding: 15px 20px 15px 50px;
+    font-size: 18px;
+    outline: none;
+  }
+  transform: translateY(37.6vh);
+  select {
+    padding: 15px 0px 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  #find-food-btn {
+    color: #ffffff;
+    background-color: black;
+    padding: 16px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  h1 {
+    font-size: 50px;
+    color: #06c167;
+    letter-spacing: 1px;
+  }
+  p {
+    color: #06c167;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  span {
+    text-decoration: underline;
+    color: green;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 742px) {
+  .main-form-parent {
+    text-align: center;
+    margin: 0;
+    span {
+      color: white;
+    }
+    input {
+      padding-left: 30px;
+    }
+    p {
+      color: black;
+      font-size: 20px;
+    }
+    h1 {
+      font-size: 30px;
+    }
+    i {
+      top: 50%;
+    }
+  }
+}
+
+@media (max-width: 422px) {
+  .main-form-parent {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    form {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+    select {
+      width: 100%;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    input {
+      width: 100%;
+      align-items: center;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    i {
+      top: 35%;
+      display: none;
+    }
+    input {
+      padding-left: 5px;
+    }
+    #find-food-btn {
+      margin-top: 15px;
+    }
+    p {
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.cities-list-parent{
+    display: flex;
+    justify-content: space-between;
+    ul{
+        li{
+            padding-top: 20px;
+            a{
+                font-size: 18px;
+                color: black;
+            }
+        }
+    }
+    
+}
+.cities-list-section{
+    width: 93%;
+    margin: auto;
+}
+@media only screen and(max-width:755px){
+    .cities-list-parent{
+        flex-direction: column;
+        text-align: center;
+        ul{
+            padding-top: 20px;
+        }
+    }
+}
